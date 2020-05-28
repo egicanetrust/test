@@ -41,7 +41,7 @@ namespace CxCE_Demo
             message.Text = "Welcome " + username;
             conn.Close();
         }
-//test1
+//test11
         private int getAge(string name)
         {
             SqlConnection conn = new SqlConnection("Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=" + Constants.DB_PASSWORD + ";");
